@@ -5,34 +5,49 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8271f978-cd41-49eb-909f-68e67944280c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/smartwire/windows/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/smartwire/windows/common/SingletonBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/smartwire/windows/presenter/LoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/smartwire/windows/presenter/dto/LoginDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/css/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/font/Pretendard-Black.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/font/Pretendard-Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/font/Pretendard-ExtraBold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/font/Pretendard-ExtraLight.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/font/Pretendard-Light.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/font/Pretendard-Medium.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/font/Pretendard-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/font/Pretendard-SemiBold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/font/Pretendard-Thin.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/smartwire/windows/view/login.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/smartwire/windows/common/alert/AlertWindow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/smartwire/windows/common/cache/SimpleCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/smartwire/windows/common/constant/Constants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/smartwire/windows/common/exception/CustomException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/smartwire/windows/common/exception/ErrorCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/smartwire/windows/common/file/FileAccess.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/smartwire/windows/common/http/HttpClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/smartwire/windows/config/HomeConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/smartwire/windows/config/LoginConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/smartwire/windows/config/MachineConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/smartwire/windows/domain/Log.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/smartwire/windows/domain/LogFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/smartwire/windows/domain/Machine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/smartwire/windows/domain/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/smartwire/windows/domain/mapper/LogMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/smartwire/windows/dto/FileStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/smartwire/windows/dto/MachineConnectionInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/smartwire/windows/dto/response/ApiResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/smartwire/windows/dto/response/MachineConnectionResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/smartwire/windows/dto/response/MachineResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/smartwire/windows/dto/response/MemberResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/smartwire/windows/model/DetectionThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/smartwire/windows/model/HomeModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/smartwire/windows/model/LoginModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/smartwire/windows/model/MachineModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/smartwire/windows/presenter/HomePresenter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/smartwire/windows/presenter/LoginPresenter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/smartwire/windows/presenter/MachinePresenter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/smartwire/windows/view/HomeView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/smartwire/windows/view/MachineView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/image/connected.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/image/disconnected.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/smartwire/windows/view/home.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/smartwire/windows/view/machines.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/smartwire/windows/common/file/FileAccessTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/smartwire/windows/common/http/HttpClientTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,12 +65,30 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="smartwire-windows-3_0" type="f1a62948:ProjectNode" />
+                <item name="smartwire-windows-2_0" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="smartwire-windows-2_0" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="smartwire-windows-2_0" type="f1a62948:ProjectNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="smartwire-windows-2_0" type="f1a62948:ProjectNode" />
+                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
               </path>
             </expand>
             <select />
@@ -67,8 +100,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="FxmlFile" />
         <option value="CSS File" />
+        <option value="Enum" />
+        <option value="JUnit5 Test Class" />
+        <option value="FxmlFile" />
         <option value="Class" />
       </list>
     </option>
@@ -78,6 +113,15 @@
   </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="5" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$PROJECT_DIR$/../../../../../../Program Files (x86)/Java/jdk1.8.0_152/javafx-src.zip!/javafx/scene/control/Alert.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$PROJECT_DIR$/../../../../../../Program Files (x86)/Java/jdk1.8.0_152/src.zip!/java/lang/Thread.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$PROJECT_DIR$/../../../../../../Program Files (x86)/Java/jdk1.8.0_152/src.zip!/java/nio/file/WatchService.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/.gradle/wrapper/dists/gradle-8.4-bin/1w5dpkrfk8irigvoxmyhowfim/gradle-8.4/lib/gradle-core-api-8.4.jar!/org/gradle/api/Project.class" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
@@ -89,13 +133,26 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Build smartwire-windows-2_0.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.FileAccessTest.read.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.FileAccessTest.test.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.HttpClientTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.HttpClientTest.get.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.HttpClientTest.test.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.smartwire-windows-2_0 [:LogFileWatcher.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.smartwire-windows-2_0 [:Main.main()].executor&quot;: &quot;Debug&quot;,
+    &quot;Gradle.smartwire-windows-2_0 [build].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.smartwire-windows-2_0 [clean].executor&quot;: &quot;Run&quot;,
     &quot;Gradle.smartwire-windows-3_0 [:Main.main()].executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/wjsdj/Desktop/programming/project/smartwire-windows-3_0/src/main/resources/font&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/wjsdj/Desktop/programming/project/smartwire-windows-2_0/src/main/java&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -103,24 +160,58 @@
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/wjsdj/Desktop/programming/project/smartwire-windows-3_0/src/main/java/smartwire/windows/Main.java&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.import&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Global Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;File.Encoding&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="smartwire.windows.model.dto" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\wjsdj\Desktop\programming\project\smartwire-windows-2_0\src\main\resources\image" />
       <recent name="C:\Users\wjsdj\Desktop\programming\project\smartwire-windows-3_0\src\main\resources\font" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\wjsdj\Desktop\programming\project\smartwire-windows-2_0\src\main\resources\image" />
       <recent name="C:\Users\wjsdj\Desktop\programming\project\smartwire-windows-3_0\src\main\resources\smartwire\windows\view" />
       <recent name="C:\Users\wjsdj\Desktop\programming\project\smartwire-windows-3_0\src\main\resources" />
       <recent name="C:\Users\wjsdj\Desktop\programming\project\smartwire-windows-3_0\src\main\resources\smartwire\windows\views" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="smartwire.windows.view" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="smartwire.windows.common.http" />
+      <recent name="smartwire.windows.common.file" />
+    </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Gradle.smartwire-windows-2_0 [build]">
+    <configuration name="LogFileWatcher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="smartwire.windows.model.LogFileWatcher" />
+      <module name="smartwire-windows-2_0.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="smartwire.windows.model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <envs>
+        <env name="ENV" value="local" />
+      </envs>
       <option name="MAIN_CLASS_NAME" value="smartwire.windows.Main" />
-      <module name="smartwire-windows-3_0.main" />
+      <module name="smartwire-windows-2_0.main" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="smartwire.windows.*" />
@@ -131,9 +222,88 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="HttpClientTest.test" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;smartwire.windows.common.http.HttpClientTest.test&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="smartwire-windows-2_0 [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="smartwire-windows-2_0 [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.LogFileWatcher" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Gradle.HttpClientTest.test" />
+      <item itemvalue="Gradle.smartwire-windows-2_0 [build]" />
+      <item itemvalue="Gradle.smartwire-windows-2_0 [clean]" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.smartwire-windows-2_0 [build]" />
+        <item itemvalue="Gradle.smartwire-windows-2_0 [clean]" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.LogFileWatcher" />
+        <item itemvalue="Gradle.HttpClientTest.test" />
       </list>
     </recent_temporary>
   </component>
@@ -146,11 +316,50 @@
       <option name="presentableId" value="Default" />
       <updated>1706078227360</updated>
       <workItem from="1706078228397" duration="11358000" />
-      <workItem from="1706145465850" duration="352000" />
+      <workItem from="1706145465850" duration="11009000" />
+      <workItem from="1706160478107" duration="11918000" />
+      <workItem from="1706196499310" duration="1054000" />
+      <workItem from="1706239537452" duration="97000" />
+      <workItem from="1706241101851" duration="17518000" />
+      <workItem from="1706285967896" duration="147000" />
+      <workItem from="1706713436000" duration="1414000" />
+      <workItem from="1707144317973" duration="1748000" />
+      <workItem from="1707206425892" duration="14849000" />
+      <workItem from="1707239429965" duration="18531000" />
+      <workItem from="1707296153139" duration="15269000" />
+      <workItem from="1707357737977" duration="11904000" />
+      <workItem from="1707382651432" duration="11394000" />
+      <workItem from="1707403712383" duration="168000" />
+      <workItem from="1707653590064" duration="1291000" />
+      <workItem from="1707777745593" duration="12178000" />
+      <workItem from="1707872128410" duration="16772000" />
+      <workItem from="1707904769035" duration="51000" />
+      <workItem from="1707904845390" duration="8296000" />
+      <workItem from="1707960204498" duration="16279000" />
+      <workItem from="1708043674610" duration="1677000" />
+      <workItem from="1708393760426" duration="16636000" />
+      <workItem from="1708529979500" duration="474000" />
+      <workItem from="1708530467486" duration="424000" />
+      <workItem from="1708530906861" duration="332000" />
+      <workItem from="1708531255136" duration="662000" />
+      <workItem from="1708652695590" duration="1493000" />
+      <workItem from="1708921479265" duration="699000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="okhttp3.Response" memberName="body" />
+        <PinnedItemInfo parentTag="smartwire.windows.model.dto.Member" memberName="machines" />
+      </pinned-members>
+    </pin-to-top-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
